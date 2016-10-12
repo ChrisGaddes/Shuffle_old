@@ -10,8 +10,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.chrisgaddes.shuffle.MainActivity">
 
-    <TextView
+
+
+    <ImageView
+        android:id="@+id/iv_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clubs_ace" />
+
+
+
+    <Button
+        android:id="@+id/btn_random_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Random Card"/>
+
+    <Button
+        android:id="@+id/btn_pick_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:text="Pick Image"/>
 </RelativeLayout>
